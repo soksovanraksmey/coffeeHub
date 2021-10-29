@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="3Ug-Fg-7TJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5c-p2-s2s">
+                                <rect key="frame" x="156" y="480" width="102" height="2"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1.8" id="SR2-d8-cMU"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COFFEE HUB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIB-l4-ldb">
+                                <rect key="frame" x="156" y="485" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-cafe-400" translatesAutoresizingMaskIntoConstraints="NO" id="Lwg-SQ-fFR">
+                                <rect key="frame" x="157" y="392" width="100" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="CAE-KX-piB"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Ug-Fg-7TJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5hv-Ht-N00"/>
+                            <constraint firstItem="Lwg-SQ-fFR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7by-2Y-ww5"/>
+                            <constraint firstItem="l5c-p2-s2s" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8RN-fX-Shd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Ug-Fg-7TJ" secondAttribute="trailing" id="Onn-qW-JWx"/>
+                            <constraint firstItem="Lwg-SQ-fFR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="348" id="R0X-Ty-vOD"/>
+                            <constraint firstItem="Lwg-SQ-fFR" firstAttribute="width" secondItem="3Ug-Fg-7TJ" secondAttribute="width" multiplier="0.341546" priority="750" id="TRT-Iw-wVK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3Ug-Fg-7TJ" secondAttribute="bottom" id="Zch-SO-K2E"/>
+                            <constraint firstItem="eIB-l4-ldb" firstAttribute="width" secondItem="3Ug-Fg-7TJ" secondAttribute="height" multiplier="51:409" priority="750" id="cxB-30-zxb"/>
+                            <constraint firstItem="Lwg-SQ-fFR" firstAttribute="width" secondItem="3Ug-Fg-7TJ" secondAttribute="height" multiplier="50:409" priority="250" id="d7M-eh-slC"/>
+                            <constraint firstItem="3Ug-Fg-7TJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dgJ-IM-zj6"/>
+                            <constraint firstItem="eIB-l4-ldb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fY0-YG-fyp"/>
+                            <constraint firstItem="eIB-l4-ldb" firstAttribute="top" secondItem="l5c-p2-s2s" secondAttribute="bottom" constant="3" id="hin-Ft-gGf"/>
+                            <constraint firstItem="Lwg-SQ-fFR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="n6B-mp-TwO"/>
+                            <constraint firstItem="l5c-p2-s2s" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="136" id="sUa-Ja-qne"/>
+                            <constraint firstItem="l5c-p2-s2s" firstAttribute="top" secondItem="Lwg-SQ-fFR" secondAttribute="bottom" constant="8" symbolic="YES" id="u2q-VM-EiS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="750" height="1624"/>
+        <image name="icons8-cafe-400" width="400" height="400"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
