@@ -48,6 +48,11 @@ class ProfileViewController: UIViewController {
     }
     
     @IBAction func changePassBtn(_ sender: Any) {
+        let vc = UIStoryboard(name: "TabBar", bundle: Bundle.main).instantiateViewController(withIdentifier: "changePass") as? ChangePassControllerVC
+        self.navigationController?.pushViewController(vc!, animated: true)
+        
+        
+        
     }
     
     @IBAction func logOutBtn(_ sender: Any) {

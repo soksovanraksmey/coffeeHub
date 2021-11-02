@@ -27,7 +27,6 @@ class UpdatePFControlerVC: UIViewController {
         super.viewDidLoad()
 
         navigationController?.isNavigationBarHidden = false
-        navigationItem.title = "Profile"
 
         self.navigationItem.backBarButtonItem?.tintColor = .black
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: " ")

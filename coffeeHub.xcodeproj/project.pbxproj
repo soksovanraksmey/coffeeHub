@@ -23,6 +23,7 @@
 		52F1BE742722587800E0AA45 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1BE732722587800E0AA45 /* ProfileViewController.swift */; };
 		52F1BE7827226AE600E0AA45 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1BE7627226AE600E0AA45 /* OrderTableViewCell.swift */; };
 		52F1BE7927226AE600E0AA45 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F1BE7727226AE600E0AA45 /* OrderTableViewCell.xib */; };
+		AE101798272CEF1E00672624 /* ChangePassControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE101797272CEF1E00672624 /* ChangePassControllerVC.swift */; };
 		AE1B6E61272AB399001C6E48 /* ChangePFControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B6E60272AB399001C6E48 /* ChangePFControllerVC.swift */; };
 		AE96CE5B272AA65700BE26B4 /* UpdatePFControlerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96CE5A272AA65700BE26B4 /* UpdatePFControlerVC.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		52F1BE732722587800E0AA45 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		52F1BE7627226AE600E0AA45 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		52F1BE7727226AE600E0AA45 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		AE101797272CEF1E00672624 /* ChangePassControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassControllerVC.swift; sourceTree = "<group>"; };
 		AE1B6E60272AB399001C6E48 /* ChangePFControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePFControllerVC.swift; sourceTree = "<group>"; };
 		AE96CE5A272AA65700BE26B4 /* UpdatePFControlerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePFControlerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 				52F1BE732722587800E0AA45 /* ProfileViewController.swift */,
 				AE96CE5A272AA65700BE26B4 /* UpdatePFControlerVC.swift */,
 				AE1B6E60272AB399001C6E48 /* ChangePFControllerVC.swift */,
+				AE101797272CEF1E00672624 /* ChangePassControllerVC.swift */,
 			);
 			path = ProfileVC;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				52E6964E271DCC7B00C4DAC1 /* ViewController.swift in Sources */,
 				52E6964A271DCC7B00C4DAC1 /* AppDelegate.swift in Sources */,
 				52F1BE702722586000E0AA45 /* OrderViewController.swift in Sources */,
+				AE101798272CEF1E00672624 /* ChangePassControllerVC.swift in Sources */,
 				52E6964C271DCC7B00C4DAC1 /* SceneDelegate.swift in Sources */,
 				52E69661271DFE1600C4DAC1 /* SignUpViewController.swift in Sources */,
 				52F1BE7827226AE600E0AA45 /* OrderTableViewCell.swift in Sources */,
